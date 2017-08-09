@@ -1,0 +1,303 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1504\cocoasubrtf830
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fswiss\fcharset0 ArialMT;\f2\fnil\fcharset0 Verdana;
+\f3\fnil\fcharset0 Menlo-Regular;\f4\fmodern\fcharset0 CourierNewPSMT;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red255\green255\blue255;\red193\green193\blue193;
+\red237\green237\blue237;\red140\green211\blue254;\red23\green23\blue23;\red202\green202\blue202;\red212\green214\blue154;
+\red70\green137\blue204;\red255\green0\blue0;\red0\green0\blue0;\red255\green255\blue255;\red85\green142\blue40;
+\red255\green128\blue0;\red109\green109\blue109;\red194\green126\blue101;\red0\green0\blue0;\red0\green0\blue194;
+\red146\green26\blue32;\red251\green0\blue7;\red202\green202\blue202;\red128\green0\blue128;\red79\green123\blue61;
+\red255\green255\blue255;\red67\green192\blue160;}
+{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;\cssrgb\c100000\c100000\c100000;\cssrgb\c80000\c80000\c80000;
+\cssrgb\c94510\c94510\c94510;\cssrgb\c61176\c86275\c99608;\cssrgb\c11765\c11765\c11765;\cssrgb\c83137\c83137\c83137;\cssrgb\c86275\c86275\c66667;
+\cssrgb\c33725\c61176\c83922;\csgenericrgb\c100000\c0\c0;\csgray\c0;\csgray\c100000;\csgenericrgb\c33333\c55686\c15686;
+\csgenericrgb\c100000\c50000\c0;\cssrgb\c50196\c50196\c50196;\cssrgb\c80784\c56863\c47059;\csgenericrgb\c0\c0\c0;\cssrgb\c0\c0\c80392;
+\cssrgb\c64706\c16471\c16471;\cssrgb\c100000\c0\c0;\cssrgb\c83137\c83137\c83137;\csgenericrgb\c50000\c0\c50000;\cssrgb\c37647\c54510\c30588;
+\csgenericrgb\c100000\c100000\c100000;\cssrgb\c30588\c78824\c69020;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww10800\viewh11420\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 3Aula 31-7:\
+\
+Ajax & Async Request\
+\
+jquery: biblioteca;\
+\
+$ \'e9 uma fun\'e7\'e3o que selecta id ou class do html;\
+\
+java script poe se \'93document.getElementID(\'93p1\'94)\'94;\
+\
+iniciar:\
+\
+var novoNumero = 10;\
+\
+estou a estanciar um objecto com  a fun\'e7\'e3o New:\
+var xhr = new XMLHttpRequest();\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 XMLHttpRequest(); eta class permite nos fazer {\field{\*\fldinst{HYPERLINK "https://www.w3schools.com/xml/ajax_xmlhttprequest_create.asp"}}{\fldrslt https://www.w3schools.com/xml/ajax_xmlhttprequest_create.asp}}\
+\
+xhr.open(\'93get\'94,\'94part_do_site.html\'94);\
+\
+estou a buscar uma fun\'e7\'e3o com ();\
+e est\'e3o la duas funcoes: get e part_do_site;\
+\
+{\field{\*\fldinst{HYPERLINK "http://www.restapitutorial.com/lessons/httpmethods.html"}}{\fldrslt http://www.restapitutorial.com/lessons/httpmethods.html}}\
+\
+\
+criou se novo ficheiro html part_do_site;\
+\
+\
+ass\'edncrona: ele  so vai fazer qq coisa qdo receber informa\'e7\'e3o do servidor;\
+callback funcho que executada quando algures no tempo \'e9 executada num determinado evento; evento \'e9 o: onreadystatechange;\
+{\field{\*\fldinst{HYPERLINK "https://www.w3schools.com/js/js_ajax_http.asp"}}{\fldrslt https://www.w3schools.com/js/js_ajax_http.asp}}\
+\
+\pard\pardeftab720\sl680\sa200\partightenfactor0
+
+\f1\fs60 \cf2 \cb3 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 XMLHttpRequest Object Properties\
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trcbpat3 \tamart400 \tamarb400 \trbrdrt\brdrs\brdrw20\brdrcf4 \trbrdrl\brdrs\brdrw20\brdrcf4 \trbrdrr\brdrs\brdrw20\brdrcf4 
+\clvertalt \clcbpat3 \clwWidth6123\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl320 \clpadb160 \clpadr160 \gaph\cellx4320
+\clvertalt \clcbpat3 \clwWidth11136\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl160 \clpadb160 \clpadr160 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sl360\partightenfactor0
+
+\f2\b\fs30 \cf2 \cb1 Property\cell 
+\pard\intbl\itap1\pardeftab720\sl360\partightenfactor0
+\cf2 Description\cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trcbpat3 \tamart400 \tamarb400 \trbrdrl\brdrs\brdrw20\brdrcf4 \trbrdrr\brdrs\brdrw20\brdrcf4 
+\clvertalt \clcbpat5 \clwWidth6123\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl320 \clpadb160 \clpadr160 \gaph\cellx4320
+\clvertalt \clcbpat5 \clwWidth11136\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl160 \clpadb160 \clpadr160 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sl360\partightenfactor0
+
+\b0 \cf2 onreadystatechange\cell 
+\pard\intbl\itap1\pardeftab720\sl360\partightenfactor0
+\cf2 Defines a function to be called when the readyState property changes\cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trcbpat3 \tamart400 \tamarb400 \trbrdrl\brdrs\brdrw20\brdrcf4 \trbrdrr\brdrs\brdrw20\brdrcf4 
+\clvertalt \clcbpat3 \clwWidth6123\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl320 \clpadb160 \clpadr160 \gaph\cellx4320
+\clvertalt \clcbpat3 \clwWidth11136\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl160 \clpadb160 \clpadr160 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sl360\partightenfactor0
+\cf2 readyState\cell 
+\pard\intbl\itap1\pardeftab720\sl360\partightenfactor0
+\cf2 Holds the status of the XMLHttpRequest.\
+0: request not initialized\'a0\
+1: server connection established\
+2: request received\'a0\
+3: processing request\'a0\
+4: request finished and response is ready\cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trcbpat3 \tamart400 \tamarb400 \trbrdrl\brdrs\brdrw20\brdrcf4 \trbrdrr\brdrs\brdrw20\brdrcf4 
+\clvertalt \clcbpat5 \clwWidth6123\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl320 \clpadb160 \clpadr160 \gaph\cellx4320
+\clvertalt \clcbpat5 \clwWidth11136\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl160 \clpadb160 \clpadr160 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sl360\partightenfactor0
+\cf2 responseText\cell 
+\pard\intbl\itap1\pardeftab720\sl360\partightenfactor0
+\cf2 Returns the response data as a string\cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trcbpat3 \tamart400 \tamarb400 \trbrdrl\brdrs\brdrw20\brdrcf4 \trbrdrr\brdrs\brdrw20\brdrcf4 
+\clvertalt \clcbpat3 \clwWidth6123\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl320 \clpadb160 \clpadr160 \gaph\cellx4320
+\clvertalt \clcbpat3 \clwWidth11136\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl160 \clpadb160 \clpadr160 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sl360\partightenfactor0
+\cf2 responseXML\cell 
+\pard\intbl\itap1\pardeftab720\sl360\partightenfactor0
+\cf2 Returns the response data as XML data\cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trcbpat3 \tamart400 \tamarb400 \trbrdrl\brdrs\brdrw20\brdrcf4 \trbrdrr\brdrs\brdrw20\brdrcf4 
+\clvertalt \clcbpat5 \clwWidth6123\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl320 \clpadb160 \clpadr160 \gaph\cellx4320
+\clvertalt \clcbpat5 \clwWidth11136\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl160 \clpadb160 \clpadr160 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sl360\partightenfactor0
+\cf2 status\cell 
+\pard\intbl\itap1\pardeftab720\sl360\partightenfactor0
+\cf2 Returns the status-number of a request\
+200: "OK"\
+403: "Forbidden"\
+404: "Not Found"\
+For a complete list go to the\'a0{\field{\*\fldinst{HYPERLINK "https://www.w3schools.com/tags/ref_httpmessages.asp"}}{\fldrslt \ul Http Messages Reference}}\cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trcbpat3 \tamart400 \tamarb400 \trbrdrl\brdrs\brdrw20\brdrcf4 \trbrdrb\brdrs\brdrw20\brdrcf4 \trbrdrr\brdrs\brdrw20\brdrcf4 
+\clvertalt \clcbpat3 \clwWidth6123\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl320 \clpadb160 \clpadr160 \gaph\cellx4320
+\clvertalt \clcbpat3 \clwWidth11136\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt160 \clpadl160 \clpadb160 \clpadr160 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sl360\partightenfactor0
+\cf2 statusText\cell 
+\pard\intbl\itap1\pardeftab720\sl360\partightenfactor0
+\cf2 Returns the status-text (e.g. "OK" or "Not Found")\cell \lastrow\row
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 \
+var DONE significa q o pedido foi executado;\
+\
+\
+erro na consola dps de 
+\f3 \cf6 \cb7 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec6 xhr\cf8 \strokec8 .\cf9 \strokec9 send\cf8 \strokec8 (\cf10 \strokec10 null\cf8 \strokec8 );
+\f0 \cf0 \cb1 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 :\
+\cf11 script.js:1 Hello World\
+script.js:20 XMLHttpRequest cannot load file:///Users/alunotarde/Desktop/class%2010/part_do_site.html. Cross origin requests are only supported for protocol schemes: http, data, chrome, chrome-extension, https.\
+(anonymous) @ script.js:20\
+script.js:16 Error 0\cf0 \
+\
+\
+\
+ir ao terminal do desktop:\
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f3\fs22 \cf12 \cb13 \CocoaLigature0 Last login: Mon Jul 31 14:07:16 on console\
+Altars-Mini-3:~ alunotarde$  \cf14 ls\cf12 \
+Applications	Documents	Library		Music		Public\
+Desktop		Downloads	Movies		Pictures\
+Altars-Mini-3:~ alunotarde$  \cf14 cd Desktop/\cf12 \
+Altars-Mini-3:Desktop alunotarde$ \
+Altars-Mini-3:Desktop alunotarde$ cd ..\
+Altars-Mini-3:~ alunotarde$ (com cd     .. \cf15 voltei para tras\
+\cf12 Altars-Mini-3:~ alunotarde$ cd Desktop/Class\\ 10/\
+Altars-Mini-3:Class 10 alunotarde$ python -m SimpleHTTPServer 8000\
+Serving HTTP on 0.0.0.0 port 8000 ...\
+  \
+\
+a porta 8000 \'e9 disponivek para qqn pessoa\
+atrav\'e9s do ip da nossa maquina acedemos toque queremos:\
+\
+ip local host d\'e1 not o nosso ip; significa \'93eu proprio\'93\
+\
+escrever: {\field{\*\fldinst{HYPERLINK "http://127.0.0.1:8000/"}}{\fldrslt http://127.0.0.1:8000/}}\
+localhost:8000\
+\
+assim na consola fica:\
+script.js:1 Hello World\
+script.js:13 <h1>Este \'e9 um peda\'e7o de html, executado de maneira assincrona</h1>\
+\
+objectivo da div no html: seccionar, estruturar a nossa visualiza\'e7\'e3o;\
+no index acrescentar a div:\
+\pard\pardeftab720\sl360\partightenfactor0
+
+\fs24 \cf8 \cb7 \expnd0\expndtw0\kerning0
+\CocoaLigature1 \outl0\strokewidth0 \strokec8  \cf16 \strokec16 <\cf10 \strokec10 h1\cf16 \strokec16 >\cf8 \strokec8  Hello World\cf16 \strokec16 </\cf10 \strokec10 h1\cf16 \strokec16 >\cf8 \strokec8   \cb1 \
+\cb7           \cf16 \strokec16 <\cf10 \strokec10 div\cf8 \strokec8  \cf6 \strokec6 id\cf8 \strokec8 =\cf17 \strokec17 "parte1"\cf16 \strokec16 >\cf8 \strokec8  isto vai mudar\cb1 \
+\cb7           \cf16 \strokec16 </\cf10 \strokec10 div\cf16 \strokec16 >\cf8 \cb1 \strokec8 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\fs22 \cf12 \cb13 \kerning1\expnd0\expndtw0 \CocoaLigature0 \outl0\strokewidth0 \
+no js inserir:\
+\pard\pardeftab720\sl360\partightenfactor0
+
+\fs24 \cf8 \cb7 \expnd0\expndtw0\kerning0
+\CocoaLigature1 \outl0\strokewidth0 \strokec8     \cf6 \strokec6 document\cf8 \strokec8 .\cf9 \strokec9 getElementById\cf8 \strokec8 (\cf17 \strokec17 "parte1\'94\cf8 \strokec8 ).\cf6 \strokec6 innerHTML\cf8 \strokec8 =\cf6 \strokec6 xhr\cf8 \strokec8 .\cf6 \strokec6 responseText\cf8 \strokec8 ;\cb1 \
+\cf18 e assim a minha resposta estar\'e1 a fazer conex\'e3o com a outra pagina index obtendo assim na consola:\
+\cf6 \cb7 \strokec6 script.js:1 Hello World\
+script.js:13 <h1> Este \'e9 um peda\'e7o de html, executado de maneira assincrona </h1>\
+\cf8 \cb1 \strokec8 \
+\cf18 \
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\fs22 \cf18 \cb13 \kerning1\expnd0\expndtw0 \CocoaLigature0 \outl0\strokewidth0 agora procedemos \'e1 cria\'e7\'e3o de um bot\'e3o para facilitar em vez de fazer refresh \'e1 p\'e1gina:\
+\pard\pardeftab720\sl360\partightenfactor0
+
+\fs24 \cf8 \cb7 \expnd0\expndtw0\kerning0
+\CocoaLigature1 \outl0\strokewidth0 \strokec8     \cf16 \strokec16 <\cf10 \strokec10 body\cf16 \strokec16 >\cf8 \cb1 \strokec8 \
+\cb7           \cf16 \strokec16 <\cf10 \strokec10 h1\cf16 \strokec16 >\cf8 \strokec8  Hello World\cf16 \strokec16 </\cf10 \strokec10 h1\cf16 \strokec16 >\cf8 \strokec8   \cb1 \
+\cb7           \cf16 \strokec16 <\cf10 \strokec10 div\cf8 \strokec8  \cf6 \strokec6 id\cf8 \strokec8 =\cf17 \strokec17 "parte1"\cf16 \strokec16 >\cf8 \strokec8  Isto vai mudar\cb1 \
+\cb7           \cf16 \strokec16 </\cf10 \strokec10 div\cf16 \strokec16 >\cf8 \cb1 \strokec8 \
+\cb7         \cf16 \strokec16 <\cf10 \strokec10 button\cf8 \strokec8  \cf6 \strokec6 onclick\cf8 \strokec8 =\cf17 \strokec17 "mudaParte1()"\cf16 \strokec16 >\cf8 \strokec8  Mudar \cf16 \strokec16 </\cf10 \strokec10 button\cf16 \strokec16 >\cf8 \cb1 \strokec8 \
+\cb7     \cf16 \strokec16 </\cf10 \strokec10 body\cf16 \strokec16 >\cf8 \strokec8   \cb1 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\fs22 \cf18 \cb13 \kerning1\expnd0\expndtw0 \CocoaLigature0 \outl0\strokewidth0 \
+e no javascript:\
+\pard\pardeftab720\sl360\partightenfactor0
+
+\fs24 \cf8 \cb7 \expnd0\expndtw0\kerning0
+\CocoaLigature1 \outl0\strokewidth0 \strokec8 \};\cb1 \
+\
+\cf10 \cb7 \strokec10 function\cf8 \strokec8  \cf9 \strokec9 mudaParte1\cf8 \strokec8 ()\{\cb1 \
+\cb7     \cf6 \strokec6 xhr\cf8 \strokec8 .\cf9 \strokec9 send\cf8 \strokec8 (\cf10 \strokec10 null\cf8 \strokec8 );\cb1 \
+\
+\cb7 \}\cb1 \
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\fs22 \cf18 \cb13 \kerning1\expnd0\expndtw0 \CocoaLigature0 \outl0\strokewidth0 agora proceder para jQuery:\
+{\field{\*\fldinst{HYPERLINK "https://www.w3schools.com/jquery/jquery_get_started.asp"}}{\fldrslt https://www.w3schools.com/jquery/jquery_get_started.asp}}\
+neste site retiramos 
+\f4\fs32 \cf19 \cb1 \expnd0\expndtw0\kerning0
+\CocoaLigature1 \outl0\strokewidth0 \strokec19 <\cf20 \strokec20 script\cf21 \strokec21 src\cf19 \strokec19 ="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"><\cf20 \strokec20 /script\cf19 \strokec19 >\
+\pard\pardeftab720\sl360\partightenfactor0
+
+\f3\fs24 \cf22 \outl0\strokewidth0 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab720\pardirnatural\partightenfactor0
+
+\fs22 \cf18 \cb13 \kerning1\expnd0\expndtw0 \CocoaLigature0 e promos no index:\
+\pard\pardeftab720\sl360\partightenfactor0
+
+\fs24 \cf8 \cb7 \expnd0\expndtw0\kerning0
+\CocoaLigature1 \outl0\strokewidth0 \strokec8     \cf16 \strokec16 <\cf10 \strokec10 head\cf16 \strokec16 >\cf8 \cb1 \strokec8 \
+\cb7         \cf16 \strokec16 <\cf10 \strokec10 meta\cf8 \strokec8  \cf6 \strokec6 charset\cf8 \strokec8 =\cf17 \strokec17 "UTF-8"\cf16 \strokec16 >\cf8 \cb1 \strokec8 \
+\cb7         \cf16 \strokec16 <\cf10 \strokec10 title\cf16 \strokec16 >\cf8 \strokec8  Class 10\cf16 \strokec16 </\cf10 \strokec10 title\cf16 \strokec16 >\cf8 \cb1 \strokec8 \
+\cb7         \cf16 \strokec16 <\cf10 \strokec10 script\cf8 \strokec8  \cf6 \strokec6 type\cf8 \strokec8 =\cf17 \strokec17 "text/javascript"\cf8 \strokec8 ; \cf6 \strokec6 src\cf8 \strokec8 =\cf17 \strokec17 "script.js"\cf16 \strokec16 ></\cf10 \strokec10 script\cf16 \strokec16 >\cf8 \cb1 \strokec8 \
+\cb7         \cf16 \strokec16 <\cf10 \strokec10 script\cf8 \strokec8  \cf6 \strokec6 src\cf8 \strokec8 =\cf17 \strokec17 "https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"\cf16 \strokec16 ></\cf10 \strokec10 script\cf16 \strokec16 >\cf8 \cb1 \strokec8 \
+\cb7     \cf16 \strokec16 </\cf10 \strokec10 head\cf16 \strokec16 >\cf8 \cb1 \strokec8 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab720\pardirnatural\partightenfactor0
+
+\f4 \cf18 \strokec19  na consola aparece:\
+	$("#parte1")\
+	[div#parte1]\
+\
+$() \'e9 um selector e o objectivo desta fun\'e7\'e3o : selecciona uma tag, id ou class do html
+\fs32 \cf19 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f3\fs22 \cf18 \cb13 \kerning1\expnd0\expndtw0 \CocoaLigature0 \outl0\strokewidth0 \
+os callbacks vai estar dentro do \cf23 done\cf18  e do \cf23 fail\cf18 ;\
+\
+$.get() \'e9 igual a 
+\fs24 \cf24 \cb7 \expnd0\expndtw0\kerning0
+\CocoaLigature1 \outl0\strokewidth0 \strokec24 xhr.open('get','part_do_site.html');\cf8 \cb1 \strokec8 \
+
+\fs22 \cf18 \cb13 \kerning1\expnd0\expndtw0 \CocoaLigature0 \outl0\strokewidth0 \
+o meu data tem o resultado a q eu fui buscar ao servidor em vez de responseText;\
+\
+em vez de 
+\fs24 \cf24 \cb7 \expnd0\expndtw0\kerning0
+\CocoaLigature1 \outl0\strokewidth0 \strokec24 onreadystatechange.\cf8 \cb1 \strokec8 \
+
+\fs22 \cf18 \cb13 \kerning1\expnd0\expndtw0 \CocoaLigature0 \outl0\strokewidth0 \
+\
+\pard\pardeftab720\sl360\partightenfactor0
+
+\fs24 \cf18 \cb25 \expnd0\expndtw0\kerning0
+\CocoaLigature1 \outl0\strokewidth0 \strokec6 $\strokec8 .\cf23 \strokec9 get\cf18 \strokec8 (\strokec17 'part_do_site.html'\strokec8 )\
+    .\cf23 \strokec9 done\cf18 \strokec8 (\strokec10 function\strokec8 (\strokec6 data\strokec8 )\{\
+        \strokec26 console\strokec8 .\strokec9 log\strokec8 (\strokec6 data\strokec8 )\
+    \})\
+    .\cf23 \strokec9 fail\strokec8 (\cf18 \strokec10 function\strokec8 (\strokec6 data\strokec8 )\{\
+    \strokec26 console\strokec8 .\strokec9 log\strokec8 (\strokec17 "Error "\strokec8 +\strokec6 data\strokec8 );\
+    \});\
+\
+retirar o onclick do html, criando assim um novo id para o botao\
+novo c\'f3digo:\
+\pard\pardeftab720\sl360\partightenfactor0
+\cf9 \cb7 \strokec9 $\cf8 \strokec8 (\cf17 \strokec17 "#botao1"\cf8 \strokec8 ).\cf9 \strokec9 click\cf8 \strokec8 (\cf10 \strokec10 function\cf8 \strokec8 ()\{\cb1 \
+\pard\pardeftab720\sl360\partightenfactor0
+\cf8 \cb7     \cf6 \strokec6 $\cf8 \strokec8 .\cf9 \strokec9 get\cf8 \strokec8 (\cf17 \strokec17 'part_do_site.html'\cf8 \strokec8 ).\cf9 \strokec9 done\cf8 \strokec8 (\cf10 \strokec10 function\cf8 \strokec8 (\cf6 \strokec6 data\cf8 \strokec8 )\{\cb1 \
+\cb7         \cf26 \strokec26 console\cf8 \strokec8 .\cf9 \strokec9 log\cf8 \strokec8 (\cf6 \strokec6 data\cf8 \strokec8 );\cb1 \
+\cb7         \cf9 \strokec9 $\cf8 \strokec8 (\cf17 \strokec17 "#parte1"\cf8 \strokec8 ).\cf9 \strokec9 html\cf8 \strokec8 (\cf6 \strokec6 data\cf8 \strokec8 );\cb1 \
+\cb7     \}).\cf9 \strokec9 fail\cf8 \strokec8 (\cf10 \strokec10 function\cf8 \strokec8 (\cf6 \strokec6 data\cf8 \strokec8 )\{\cb1 \
+\cb7         \cf26 \strokec26 console\cf8 \strokec8 .\cf9 \strokec9 log\cf8 \strokec8 (\cf17 \strokec17 "Error "\cf8 \strokec8 +\cf6 \strokec6 data\cf8 \strokec8 );\cb1 \
+\cb7     \})\cb1 \
+\cb7 \})\cb1 \
+\cf18 \cb25 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\fs22 \cf18 \cb13 \kerning1\expnd0\expndtw0 \CocoaLigature0 \outl0\strokewidth0 \
+\
+\
+
+\f0\fs24 \cf0 \cb1 \CocoaLigature1 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 \
+\
+\
+\
+}

@@ -1,0 +1,60 @@
+
+.livro {
+    display: none;
+background-color:lavender;
+border: 5px dotted goldenrod;
+background-clip: padding-box;
+height: auto;
+text-align: center;
+}
+
+.active {
+display: block;
+text-align: center;
+
+}
+body{
+    text-align: center;
+}
+h1{
+    color: black;
+    font: italic bold 29px/30px Georgia, serif;
+
+}
+h2{
+    color: goldenrod;
+    font-size:25px;
+}
+
+h3{
+    color: darkblue ;
+    text-align: center;
+    font-size:20px;
+}
+p{
+    color: goldenrod;
+    font-size:15px;
+    text-align-last: center;
+}
+.p1{
+    height: 300px;
+    text-align: justify;
+    text-align-last: center;
+    font: italic bold 12px/30px Georgia, serif;
+}
+button{
+    color: purple;
+    font-size:15px;
+    background-color: plum;
+    width: 100px;
+    height: 40px;
+    vertical-align: top;
+}
+img {
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+}
+ul {
+    text-align: justify;
+    height: auto;
+}

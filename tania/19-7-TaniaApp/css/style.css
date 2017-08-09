@@ -1,0 +1,58 @@
+.livro {
+    display: inline-block;
+
+background-color:lavender;
+border: 5px dotted goldenrod;
+background-clip: padding-box;
+height: auto;
+}
+body{
+    text-align: center;
+}
+h1{
+    color: black;
+    font: italic bold 29px/30px Georgia, serif;
+
+}
+h2{
+    color: goldenrod;
+    font-size:25px;
+}
+
+h3{
+    color: goldenrod;
+    text-align: left;
+}
+p{
+    color: goldenrod;
+    font-size:15px;
+}
+.p1{
+    height: 300px;
+    text-align: justify;
+    text-align-last: center;
+    font: italic bold 12px/30px Georgia, serif;
+}
+button{
+    color: purple;
+    font-size:15px;
+    background-color: plum;
+    width: 100px;
+    height: 40px;
+    vertical-align: top;
+}
+img {
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+}
+ul {
+    text-align: justify;
+    height: auto;
+}
+.Coment {
+    display: inline-block;
+
+background-color:lavender;
+background-clip: padding-box;
+height: 100px;
+}

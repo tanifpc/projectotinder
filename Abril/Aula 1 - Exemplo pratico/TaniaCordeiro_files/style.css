@@ -1,0 +1,22 @@
+.livro {
+    display: inline-block;
+margin-left: 50px;
+margin-right: 50px;
+width: 250px;
+background-color:paleturquoise;
+}
+body{
+    text-align: center;
+}
+h1{
+    color: goldenrod;
+    font-size:25px;
+}
+p{
+    color: goldenrod;
+    font-size:15px;
+}
+button{
+    color: goldenrod;
+    font-size:15px;
+}

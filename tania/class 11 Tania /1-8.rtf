@@ -1,0 +1,240 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1504\cocoasubrtf830
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fnil\fcharset0 Menlo-Regular;\f2\fnil\fcharset0 Menlo-Bold;
+}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red255\green255\blue255;\red79\green123\blue61;
+\red202\green202\blue202;\red255\green255\blue255;\red79\green123\blue61;\red202\green202\blue202;\red70\green137\blue204;
+\red140\green211\blue254;\red194\green126\blue101;\red167\green197\blue152;\red67\green192\blue160;\red212\green214\blue154;
+\red183\green111\blue179;\red67\green192\blue160;\red212\green214\blue154;\red140\green211\blue254;\red70\green137\blue204;
+}
+{\*\expandedcolortbl;;\csgenericrgb\c0\c0\c0;\csgenericrgb\c100000\c100000\c100000;\cssrgb\c37647\c54510\c30588;
+\cssrgb\c83137\c83137\c83137;\csgray\c100000;\cssrgb\c37647\c54510\c30588;\cssrgb\c83137\c83137\c83137;\cssrgb\c33725\c61176\c83922;
+\cssrgb\c61176\c86275\c99608;\cssrgb\c80784\c56863\c47059;\cssrgb\c70980\c80784\c65882;\cssrgb\c30588\c78824\c69020;\cssrgb\c86275\c86275\c66667;
+\cssrgb\c77255\c52549\c75294;\cssrgb\c30588\c78824\c69020;\cssrgb\c86275\c86275\c66667;\cssrgb\c61176\c86275\c99608;\cssrgb\c33725\c61176\c83922;
+}
+\paperw11900\paperh16840\margl1440\margr1440\vieww19020\viewh15540\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 Aula 1-8:\
+\
+slide class#8, page 11:\
+\pard\pardeftab720\sl360\partightenfactor0
+
+\f1 \cf2 \cb3 \expnd0\expndtw0\kerning0
+\
+\pard\pardeftab720\sl360\partightenfactor0
+
+\f2\b\fs28 \cf4 \cb3 uma array acede atrav\'e9s de valores num\'e9ricos ([0])\cf5 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f1\b0 \cf2 \cb6 \kerning1\expnd0\expndtw0 \CocoaLigature0 \
+\pard\pardeftab720\sl360\partightenfactor0
+
+\f2\b \cf7 \cb3 \expnd0\expndtw0\kerning0
+\CocoaLigature1 \outl0\strokewidth0 \strokec7 //Enquanto que exemplo de dicion\'e1rio acede atrav\'e9s de um conjunto de chave e valor:\cf8 \strokec8 \
+\cf9 \strokec9 var\cf8 \strokec8  \cf10 \strokec10 exemplo1\cf8 \strokec8  =\{\
+    \cf11 \strokec11 "paulo"\cf10 \strokec10 :\cf12 \strokec12 20\cf8 \strokec8 ,\
+    \cf11 \strokec11 "americo"\cf10 \strokec10 :\cf8 \strokec8  \cf12 \strokec12 100,\cf8 \strokec8 \
+ \}\
+\
+\pard\pardeftab720\sl360\partightenfactor0
+\cf13 \strokec13 console\cf8 \strokec8 .\cf14 \strokec14 log\cf8 \strokec8 (\cf10 \strokec10 exemplo1\cf8 \strokec8 .\cf10 \strokec10 paulo\cf8 \strokec8 );\
+\cf13 \strokec13 console\cf8 \strokec8 .\cf14 \strokec14 log\cf8 \strokec8 (\cf10 \strokec10 exemplo1\cf8 \strokec8 [\cf11 \strokec11 "paulo"\cf8 \strokec8 ]);
+\f1\b0\fs24 \cb1 \
+\pard\pardeftab720\sl360\partightenfactor0
+\cf8 \cb3 \
+\pard\pardeftab720\sl360\partightenfactor0
+\cf2 \cb1 \outl0\strokewidth0 \'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\cf8 \outl0\strokewidth0 \strokec8 \
+\pard\pardeftab720\sl360\partightenfactor0
+\cf2 \cb3 \outl0\strokewidth0 m\'e9todo, objecto, atributos;\
+attributes: altura largura;\
+m\'e9todo: \'e1rea;\
+\
+
+\fs22 \cb6 \kerning1\expnd0\expndtw0 \CocoaLigature0 \
+\pard\pardeftab720\sl360\partightenfactor0
+
+\f2\b\fs28 \cf4 \cb3 \expnd0\expndtw0\kerning0
+\CocoaLigature1 //dicion\'e1rio:
+\f0\b0\fs24 \cf0 \cb1 \kerning1\expnd0\expndtw0 \
+\pard\pardeftab720\sl360\partightenfactor0
+
+\f2\b\fs28 \cf9 \cb3 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec9 var\cf8 \strokec8  \cf10 \strokec10 shape\cf8 \strokec8  = \{\
+    \cf10 \strokec10 height:\cf8 \strokec8  \cf12 \strokec12 10\cf8 \strokec8 , 	 \cf7 \strokec7 // isto s\'e3o os meus atributos \cf8 \strokec8 \
+    \cf10 \strokec10 width:\cf12 \strokec12 10,\cf8 \strokec8  	\cf4 \cb3 \outl0\strokewidth0 // o \'faltimo elemento n\'e3o leva ponto e virgula \cf8 \cb3 \outl0\strokewidth0 \strokec8 \
+\
+   \cf10 \strokec10 area:\cf8 \strokec8  \cf9 \strokec9 function\cf8 \strokec8 ()\{\
+        \cf15 \strokec15 return\cf8 \strokec8  \cf9 \strokec9 this\cf8 \strokec8 .\cf10 \strokec10 height\cf8 \strokec8  * \cf9 \strokec9 this\cf8 \strokec8 .\cf10 \strokec10 width\cf8 \strokec8 ;\
+    \}\
+\}\
+\
+\pard\pardeftab720\sl360\partightenfactor0
+\cf13 \strokec13 console\cf8 \strokec8 .\cf14 \strokec14 log\cf8 \strokec8 (\cf10 \strokec10 shape\cf8 \strokec8 .\cf14 \strokec14 area\cf8 \strokec8 ());\
+\pard\pardeftab720\sl360\partightenfactor0
+
+\f1\b0\fs24 \cf8 \cb1 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0 \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 \
+\pard\pardeftab720\sl360\partightenfactor0
+
+\f2\b\fs28 \cf4 \cb3 \expnd0\expndtw0\kerning0
+// o nosso m\'e9todo (como s\'e3o atributos tenho que utilizar this para chama-los (s\'e3o atributos dentro de objectos), sem o this retornaria apenas height*width, n\'e3o calculando-o).\
+\pard\pardeftab720\sl360\partightenfactor0
+
+\f1\b0\fs24 \cf2 \cb1 \'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\
+\pard\pardeftab720\sl360\partightenfactor0
+
+\f2\b\fs28 \cf4 \cb3 altera\'e7\'e3o dos valores dos atributos:\
+\pard\pardeftab720\sl360\partightenfactor0
+\cf8 \cb3 \outl0\strokewidth0 \strokec8 \
+  \
+\cf9 \strokec9 var\cf8 \strokec8  \cf10 \strokec10 shape\cf8 \strokec8  = \{\
+    \cf10 \strokec10 height:\cf8 \strokec8  \cf12 \strokec12 10\cf8 \strokec8 , \
+    \cf10 \strokec10 width:\cf12 \strokec12 10\cf8 \strokec8 ,\
+\
+    \cf10 \strokec10 area:\cf8 \strokec8  \cf9 \strokec9 function\cf8 \strokec8 ()\{\
+        \cf15 \strokec15 return\cf8 \strokec8  \cf9 \strokec9 this\cf8 \strokec8 .\cf10 \strokec10 height\cf8 \strokec8  * \cf9 \strokec9 this\cf8 \strokec8 .\cf10 \strokec10 width\cf8 \strokec8 ;\
+    \}\
+\}\
+\
+\cf10 \strokec10 shape\cf8 \strokec8 .\cf10 \strokec10 height\cf8 \strokec8 = \cf12 \strokec12 5\cf8 \strokec8 ;\
+\cf10 \strokec10 shape\cf8 \strokec8 .\cf10 \strokec10 width\cf8 \strokec8 =\cf12 \strokec12 5\cf8 \strokec8 ;\
+\pard\pardeftab720\sl360\partightenfactor0
+\cf13 \strokec13 console\cf8 \strokec8 .\cf14 \strokec14 log\cf8 \strokec8 (\cf10 \strokec10 shape\cf8 \strokec8 .\cf14 \strokec14 area\cf8 \strokec8 ());
+\f1\b0\fs24 \cb1 \
+\pard\pardeftab720\sl360\partightenfactor0
+\cf5 \outl0\strokewidth0 \
+\cf2 devolve 25;\
+\
+\
+ou:\
+\cf5 \
+\pard\pardeftab720\sl360\partightenfactor0
+
+\fs28 \cf9 \cb3 \outl0\strokewidth0 \strokec9 var\cf8 \strokec8  \cf10 \strokec10 shape\cf8 \strokec8  = \{\
+    \cf10 \strokec10 height:\cf8 \strokec8  \cf12 \strokec12 10\cf8 \strokec8 , \
+    \cf10 \strokec10 width:\cf12 \strokec12 10\cf8 \strokec8 ,\
+\
+    \cf10 \strokec10 area:\cf8 \strokec8  \cf9 \strokec9 function\cf8 \strokec8 ()\{\
+        \cf15 \strokec15 return\cf8 \strokec8  \cf9 \strokec9 this\cf8 \strokec8 .\cf10 \strokec10 height\cf8 \strokec8  * \cf9 \strokec9 this\cf8 \strokec8 .\cf10 \strokec10 width\cf8 \strokec8 ;\
+    \}\
+\}\
+\
+\cf10 \strokec10 shape\cf8 \strokec8 .\cf10 \strokec10 height\cf8 \strokec8 = \cf10 \strokec10 shape\cf8 \strokec8 .\cf10 \strokec10 height\cf8 \strokec8 /\cf12 \strokec12 2\cf8 \strokec8 ;\
+\cf10 \strokec10 shape\cf8 \strokec8 .\cf10 \strokec10 width\cf8 \strokec8 =\cf10 \strokec10 shape\cf8 \strokec8 .\cf10 \strokec10 width\cf8 \strokec8 /\cf12 \strokec12 2\cf8 \strokec8 ;\
+\pard\pardeftab720\sl360\partightenfactor0
+\cf13 \strokec13 console\cf8 \strokec8 .\cf14 \strokec14 log\cf8 \strokec8 (\cf10 \strokec10 shape\cf8 \strokec8 .\cf14 \strokec14 area\cf8 \strokec8 ());\
+\
+\pard\pardeftab720\sl360\partightenfactor0
+
+\f2\b \cf7 \strokec7 //esta fun\'e7\'e3o \'e9 menos pratica pq se eu quisesse criar uma nova shape/instancia teria que voltar a definir tudo outra vez
+\f1\b0\fs24 \cf8 \cb1 \strokec8 \
+\pard\pardeftab720\sl360\partightenfactor0
+\cf5 \outl0\strokewidth0 \
+\pard\pardeftab720\sl360\partightenfactor0
+\cf2 \'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\
+\
+Agora vamos primeiro definir o objecto e s\'f3 depois est\'e2ncia-lo:\
+\
+\pard\pardeftab720\sl360\partightenfactor0
+\cf8 \outl0\strokewidth0 \strokec8 \
+
+\f2\b\fs28 \cf9 \cb3 \strokec9 function\cf8 \strokec8  \cf14 \strokec14 Shape\cf8 \strokec8 ()\{               			\cf7 \strokec7 //uma classe sempre letra mai\'fascula\cf8 \strokec8 \
+    \cf9 \strokec9 this\cf8 \strokec8 .\cf10 \strokec10 height\cf8 \strokec8 =\cf12 \strokec12 10\cf8 \strokec8 ;						\cf7 \strokec7 //declaro aqui o meu objecto\cf8 \strokec8 \
+    \cf9 \strokec9 this\cf8 \strokec8 .\cf10 \strokec10 width\cf8 \strokec8 =\cf12 \strokec12 10\cf8 \strokec8 ;\
+    \
+\cf7 \strokec7 //agora definimos o nosso metodo:\cf8 \strokec8 \
+\
+    \cf9 \strokec9 this\cf8 \strokec8 .\cf14 \strokec14 area\cf8 \strokec8 = \cf9 \strokec9 function\cf8 \strokec8 ()\{\
+        \cf15 \strokec15 return\cf8 \strokec8  \cf9 \strokec9 this\cf8 \strokec8 .\cf10 \strokec10 height\cf8 \strokec8 *\cf9 \strokec9 this\cf8 \strokec8 .\cf10 \strokec10 width\cf8 \strokec8 ;      \cf7 \strokec7 // temos  que impor o this pq estas variaveis sao atributos\cf8 \strokec8 \
+    \};\
+\};\
+\
+\cf7 \strokec7 //falta declarar a instancia do meu objecto, criando uma nova instancia:\cf8 \strokec8 \
+\
+\cf9 \strokec9 var\cf8 \strokec8  \cf10 \strokec10 shape2\cf8 \strokec8  = \cf9 \strokec9 new\cf8 \strokec8  \cf13 \strokec13 Shape\cf8 \strokec8 ();           		\cf7 \strokec7 // var shape2 ,  nova vari\'e1vel da minha\
+ 										classe Shape. criamos um novo objecto 										\
+\cf16 \cb3 \outl0\strokewidth0 console\cf5 \cb3 .\cf17 \cb3 log\cf5 \cb3 (\cf18 \cb3 shape2\cf5 \cb3 .\cf17 \cb3 area\cf5 \cb3 ());\cf7 \cb3 \outl0\strokewidth0 \strokec7 				com o new, e estamos aqui a instanciar o novo objecto\
+\
+\cf8 \strokec8 \
+\pard\pardeftab720\sl360\partightenfactor0
+\cf4 \cb3 \outl0\strokewidth0 //quero instanciar uma shape completamente nova, com metade do tamanho:\
+\pard\pardeftab720\sl360\partightenfactor0
+\cf8 \cb3 \outl0\strokewidth0 \strokec8 \
+\cf19 \cb3 \outl0\strokewidth0 var\cf5 \cb3  \cf18 \cb3 shape3\cf5 \cb3 = \cf19 \cb3 new\cf5 \cb3  \cf16 \cb3 Shape\cf5 \cb3 ()\cf8 \cb3 \outl0\strokewidth0 \strokec8 \
+\pard\pardeftab720\sl360\partightenfactor0
+\cf8 \
+\
+  \cf10 \strokec10 shape3\cf8 \strokec8 .\cf10 \strokec10 height\cf8 \strokec8 = \cf10 \strokec10 shape3\cf8 \strokec8 .\cf10 \strokec10 height\cf8 \strokec8 /\cf12 \strokec12 2\cf8 \strokec8 ;\
+  \cf10 \strokec10 shape3\cf8 \strokec8 .\cf10 \strokec10 width\cf8 \strokec8 =\cf10 \strokec10 shape3\cf8 \strokec8 .\cf10 \strokec10 width\cf8 \strokec8 /\cf12 \strokec12 2\cf8 \strokec8 ;\
+  \cf13 \strokec13 console\cf8 \strokec8 .\cf14 \strokec14 log\cf8 \strokec8 (\cf10 \strokec10 shape3\cf8 \strokec8 .\cf14 \strokec14 area\cf8 \strokec8 ());
+\f1\b0 				
+\f2\b \cf4 \cb3 \outl0\strokewidth0 // devolve 25 de valor
+\f1\b0\fs24 \cf8 \cb1 \outl0\strokewidth0 \strokec8 \
+\
+\pard\pardeftab720\sl360\partightenfactor0
+\cf2 \outl0\strokewidth0 a cria\'e7\'e3o de uma nova fun\'e7\'e3o \'e9 bastante mais f\'e1cil, com o exemplo da cria\'e7\'e3o de per\'edmetro:\
+\pard\pardeftab720\sl360\partightenfactor0
+
+\f2\b\fs28 \cf2 \cb3 \
+\pard\pardeftab720\sl360\partightenfactor0
+\cf8 \cb3 \outl0\strokewidth0 \strokec8    \cf9 \strokec9 this\cf8 \strokec8 .\cf14 \strokec14 area\cf8 \strokec8 = \cf9 \strokec9 function\cf8 \strokec8 ()\{\
+        \cf15 \strokec15 return\cf8 \strokec8  \cf9 \strokec9 this\cf8 \strokec8 .\cf10 \strokec10 height\cf8 \strokec8 *\cf9 \strokec9 this\cf8 \strokec8 .\cf10 \strokec10 width\cf8 \strokec8 ;     \
+    \};\
+\
+    \cf9 \strokec9 this\cf8 \strokec8 .\cf14 \strokec14 perimetro\cf8 \strokec8 = \cf9 \strokec9 function\cf8 \strokec8 ()\{\
+        \cf15 \strokec15 return\cf8 \strokec8  \cf9 \strokec9 this\cf8 \strokec8 .\cf10 \strokec10 height\cf8 \strokec8 +\cf9 \strokec9 this\cf8 \strokec8 .\cf10 \strokec10 width\cf8 \strokec8 ;     \
+    \};\
+\};\
+\
+\cf9 \strokec9 var\cf8 \strokec8  \cf10 \strokec10 shape2\cf8 \strokec8  = \cf9 \strokec9 new\cf8 \strokec8  \cf13 \strokec13 Shape\cf8 \strokec8 ();           \
+\pard\pardeftab720\sl360\partightenfactor0
+\cf13 \strokec13 console\cf8 \strokec8 .\cf14 \strokec14 log\cf8 \strokec8 (\cf10 \strokec10 shape2\cf8 \strokec8 .\cf14 \strokec14 area\cf8 \strokec8 ());\
+\
+\
+\pard\pardeftab720\sl360\partightenfactor0
+\cf9 \strokec9 var\cf8 \strokec8  \cf10 \strokec10 shape3\cf8 \strokec8 = \cf9 \strokec9 new\cf8 \strokec8  \cf13 \strokec13 Shape\cf8 \strokec8 ();\
+\
+    \cf10 \strokec10 shape3\cf8 \strokec8 .\cf10 \strokec10 height\cf8 \strokec8 = \cf10 \strokec10 shape3\cf8 \strokec8 .\cf10 \strokec10 height\cf8 \strokec8 /\cf12 \strokec12 2\cf8 \strokec8 ;\
+    \cf10 \strokec10 shape3\cf8 \strokec8 .\cf10 \strokec10 width\cf8 \strokec8 =\cf10 \strokec10 shape3\cf8 \strokec8 .\cf10 \strokec10 width\cf8 \strokec8 /\cf12 \strokec12 2\cf8 \strokec8 ;\
+    \cf13 \strokec13 console\cf8 \strokec8 .\cf14 \strokec14 log\cf8 \strokec8 (\cf10 \strokec10 shape3\cf8 \strokec8 .\cf14 \strokec14 area\cf8 \strokec8 ());\
+    \cf13 \strokec13 console\cf8 \strokec8 .\cf14 \strokec14 log\cf8 \strokec8 (\cf10 \strokec10 shape2\cf8 \strokec8 .\cf14 \strokec14 perimetro\cf8 \strokec8 ());
+\f1\b0\fs24 \cb1 \
+\pard\pardeftab720\sl360\partightenfactor0
+\cf2 \outl0\strokewidth0 \
+\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\
+\
+Construtor:\
+\
+em vez dos valores estarem a ser definidos na classe, est\'e3o agora ser definidos na instancia.\
+\pard\pardeftab720\sl360\partightenfactor0
+\cf8 \outl0\strokewidth0 \strokec8 \
+
+\f2\b\fs28 \cf9 \cb3 \strokec9 var\cf8 \strokec8  \cf10 \strokec10 shape2\cf8 \strokec8  = \cf9 \strokec9 new\cf8 \strokec8  \cf13 \strokec13 Shape\cf8 \strokec8 (5,5);           \
+\pard\pardeftab720\sl360\partightenfactor0
+\cf13 \strokec13 console\cf8 \strokec8 .\cf14 \strokec14 log\cf8 \strokec8 (\cf10 \strokec10 shape2\cf8 \strokec8 .\cf14 \strokec14 area\cf8 \strokec8 ());\
+\
+\
+\pard\pardeftab720\sl360\partightenfactor0
+\cf9 \strokec9 var\cf8 \strokec8  \cf10 \strokec10 shape3\cf8 \strokec8 = \cf9 \strokec9 new\cf8 \strokec8  \cf13 \strokec13 Shape\cf8 \strokec8 (5,5);\
+\
+    \cf10 \strokec10 shape3\cf8 \strokec8 .\cf10 \strokec10 height\cf8 \strokec8 = \cf10 \strokec10 shape3\cf8 \strokec8 .\cf10 \strokec10 height\cf8 \strokec8 /\cf12 \strokec12 2\cf8 \strokec8 ;\
+    \cf10 \strokec10 shape3\cf8 \strokec8 .\cf10 \strokec10 width\cf8 \strokec8 =\cf10 \strokec10 shape3\cf8 \strokec8 .\cf10 \strokec10 width\cf8 \strokec8 /\cf12 \strokec12 2\cf8 \strokec8 ;\
+    \cf13 \strokec13 console\cf8 \strokec8 .\cf14 \strokec14 log\cf8 \strokec8 (\cf10 \strokec10 shape2\cf8 \strokec8 .\cf14 \strokec14 area\cf8 \strokec8 ());\
+    \cf13 \strokec13 console\cf8 \strokec8 .\cf14 \strokec14 log\cf8 \strokec8 (\cf10 \strokec10 shape3\cf8 \strokec8 .\cf14 \strokec14 perimetro\cf8 \strokec8 ());\
+\
+???
+\f1\b0\fs24 \cb1 \
+\pard\pardeftab720\sl360\partightenfactor0
+\cf2 \outl0\strokewidth0 \
+\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\
+\
+\
+Agora cria\'e7\'e3o de uma nova forma de biblioteca no nosso tinder em vez de de library = [ ];\
+\
+
+\f0 \cf0 \kerning1\expnd0\expndtw0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 \
+}

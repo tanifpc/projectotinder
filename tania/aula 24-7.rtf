@@ -1,0 +1,99 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1504\cocoasubrtf830
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fnil\fcharset0 Menlo-Regular;}
+{\colortbl;\red255\green255\blue255;\red255\green255\blue255;\red109\green109\blue109;\red70\green137\blue204;
+\red202\green202\blue202;\red140\green211\blue254;\red194\green126\blue101;\red0\green0\blue255;\red79\green123\blue61;
+\red0\green0\blue0;\red23\green23\blue23;}
+{\*\expandedcolortbl;;\csgenericrgb\c100000\c100000\c100000;\cssrgb\c50196\c50196\c50196;\cssrgb\c33725\c61176\c83922;
+\cssrgb\c83137\c83137\c83137;\cssrgb\c61176\c86275\c99608;\cssrgb\c80784\c56863\c47059;\csgenericrgb\c0\c0\c100000;\cssrgb\c37647\c54510\c30588;
+\csgenericrgb\c0\c0\c0;\cssrgb\c11765\c11765\c11765;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww16260\viewh12800\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 \cb2 24/7/2017:\
+\
+
+\f1 \cf3 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 <\cf4 \strokec4 div\cf5 \strokec5  \cf6 \strokec6 class\cf5 \strokec5 =\cf7 \strokec7 "livro col-lg-4 \cf8 col-lg-offset-4\cf7  col-md-4 col-md-offset-1"\cf3 \strokec3 >\cf5 \strokec5 \
+\
+a azul tem q estar offset 4 sen\'e3o n\'e3o conseguia centrar o meu texto pois das 4 colunas a primeira n\'e3o estaria centrada no era, apenas estaria centrada na primeira coluna.\
+\
+\
+\pard\pardeftab720\sl360\partightenfactor0
+\cf5 \
+\pard\pardeftab720\sl360\partightenfactor0
+\cf9 \strokec9 var a = [1,2,3,4,5];\cf5 \strokec5 \
+\cf9 \strokec9 for (var i= 0; i<= a.length ; i ++)\{\cf5 \strokec5 \
+\cf9 \strokec9     console.log(a[i] * 3);\cf5 \strokec5 \
+\cf9 \strokec9     \}\cf5 \strokec5 \
+\
+\cf9 \strokec9 enquanto o tamanho do a for maior ou igual ao i, o i vai ser incrementado e isto corre ate a posi\'e7\'e3o da coluna i\cf5 \strokec5 \
+\cf9 \strokec9 se i <=5 vai mostrar os valores de 5 posi\'e7\'f5es na coluna e por isso dar\'e1 erro (0,1,2,3,4,5)..\cf5 \cb1 \strokec5 \
+\
+\
+\
+\cf9 \cb2 \strokec9 var erro =false;\cf5 \strokec5 \
+\cf9 \strokec9 var contador = 5;\cf5 \strokec5 \
+\cf9 \strokec9 while (!erro)\{\cf5 \strokec5 \
+\cf9 \strokec9     if(contador == 0)\{\cf5 \strokec5 \
+\cf9 \strokec9     erro = true;\cf5 \strokec5 \
+\cf9 \strokec9     break;\cf5 \strokec5 \
+\cf9 \strokec9 \}\cf5 \strokec5 \
+\cf9 \strokec9 console.log (contador --);\cf5 \strokec5 \
+\cf9 \strokec9 \}\cf5 \strokec5 \
+\cf9 \strokec9  vao aparecer os n\'fameros e o break acaba o while\cf5 \strokec5 \
+\cf9 \strokec9  */\cf5 \cb1 \strokec5 \
+\
+\pard\pardeftab720\sl360\partightenfactor0
+\cf10 continue: obriga a que o contador salte algo em especifico\
+\
+switch: exits para substituir various ifs\
+\
+\pard\pardeftab720\sl360\partightenfactor0
+\cf9 \cb11 \strokec9 /*\cf5 \cb1 \strokec5 \
+\cf9 \cb11 \strokec9 var index=20;\cf5 \cb1 \strokec5 \
+\cf9 \cb11 \strokec9 switch (index)\{\cf5 \cb1 \strokec5 \
+\cf9 \cb11 \strokec9     case 0:\cf5 \cb1 \strokec5 \
+\cf9 \cb11 \strokec9     case 1:\cf5 \cb1 \strokec5 \
+\cf9 \cb11 \strokec9          console.log(index);\cf5 \cb1 \strokec5 \
+\cf9 \cb11 \strokec9         break;\cf5 \cb1 \strokec5 \
+\cf9 \cb11 \strokec9         default:\cf5 \cb1 \strokec5 \
+\cf9 \cb11 \strokec9             console.log("index");\cf5 \cb1 \strokec5 \
+\cf9 \cb11 \strokec9 \}\cf5 \cb1 \strokec5 \
+\cf9 \cb11 \strokec9  se o valor o index for 0 ou 1 corre a mesma coisa e depois faz breaksaindo assimdo switch.\cf5 \cb1 \strokec5 \
+\cf9 \cb11 \strokec9 se nao for nenhumdestes entao default\cf5 \cb1 \strokec5 \
+\
+\pard\pardeftab720\sl360\partightenfactor0
+\cf10 \
+\
+vari\'e1vel default: obriga a parar o switch depois deste correr\
+\
+\
+var index=0;\
+switch (index)\{\
+    case 0:\
+    case 1:\
+         console.log(index);\
+    case 2:\
+            console.log(0);\
+     default:\
+            console.log("index");\
+    \}\
+        \
+ resultado da consola:sssssssssss       \
+VM138:5 0\
+VM138:7 0\
+VM138:9 index\
+\
+\
+\
+De modo a criar loop nos botoes que clico \'91gosto\'92e \'91n\'e3o gosto\'92:\
+\pard\pardeftab720\sl360\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "https://stackoverflow.com/questions/15628500/how-do-i-loop-next"}}{\fldrslt \cf10 https://stackoverflow.com/questions/15628500/how-do-i-loop-next}}\
+\pard\pardeftab720\sl360\partightenfactor0
+\cf10 criando novas classes \'93Like\'94 e \'93Dislike\'94\
+\
+\
+\
+\
+this sem o dollar \'e9 a fun\'e7\'e3o em si\
+com o $ \'e9 o button que est\'e1 a ser colocado, onde est\'e1 a correr.}
