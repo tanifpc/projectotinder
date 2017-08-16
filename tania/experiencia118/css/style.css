@@ -1,0 +1,133 @@
+.livro {
+display: block;
+background-color: moccasin;
+border: 3px dotted goldenrod;
+background-clip: padding-box;
+margin-top: 10%;
+margin-left: 33%;
+
+}
+
+body.first-page{
+    text-align: center;
+    background-image: url("https://i.ytimg.com/vi/k3zq7itoqKU/maxresdefault.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+body.inicial-page{
+    text-align: center;
+    background-image: url("http://wild-about-travel.com/wp-content/uploads/2014/10/SIladen-Sunset-Wallpaper-2880x1800.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+body.end-page{
+    background-image: url("https://s-media-cache-ak0.pinimg.com/originals/87/f0/f8/87f0f81fbd571805f981de8ce4dac470.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+html {
+    height: 100%
+}
+
+h1{
+    color: black;
+    font: italic bold 29px/30px Georgia, serif;
+    text-align: center;
+    display:block;
+    top: 50%;
+    left: 50%;
+    margin-left: -100px;
+}
+h2{
+    color: goldenrod;
+    font-size:25px;
+}
+#titulo{
+    color: teal; ;
+    text-align: center;
+    font-size: italic bold 100px Georgia, serif;
+}
+p{
+    text-align-last: center;
+    color:teal;
+    font: italic 13px Georgia, serif;
+}
+
+
+.nlike{
+    width: 100px;
+    height: 40px;
+    text-align:center;
+}
+.ylike{
+    width: 100px;
+    height: 40px;
+
+    
+}
+img {
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+}
+
+#mainPage{
+    display:none;
+    text-align:center;
+
+}
+
+#endPage{
+    display:none;
+    font-size: 15px;
+    text-align:left;
+}
+#Primeirotitulo{
+    color:teal;
+    font: italic 70px Georgia, serif;
+}
+#inicial{ 
+    position: absolute;
+    font: italic 30px Georgia, serif;
+    color:teal;
+    font-size: 30px;
+    margin: 300px;
+    border: 3px dotted teal;
+    padding: 30px;
+    display: block;    
+    top: 50%;
+    left: 50%;
+    margin-left: -100px;
+    background-color: Transparent;
+    width:100px;
+    height:100px;    
+    background: transparent url(http://winnerhun.uw.hu/rozsa2.gif) no-repeat center center;  
+}
+
+
+
+
+table{
+    border: 5px solid teal;;
+    position: absolute;
+    top: 10%;
+    font: italic bold 19px Georgia, serif;
+    left: 35%;
+    font-size: 15px;
+}
+table,td,tr{
+    text-align:center;
+    width:200px; 
+    border: 1px solid olivedrab;
+}
+
+
+.ending {
+display: block;
+background-color: transparent;
+background-clip: padding-box;
+margin-top: 10%;
+margin-left: 33%;
+}
